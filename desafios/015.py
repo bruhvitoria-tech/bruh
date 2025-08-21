@@ -1,0 +1,6 @@
+print("Qual a quantidade de Km rodados pelo carro?")
+km = float(input())
+print("Qual a quantidade de dias que o carro foi alugado?")
+dias = int(input())
+preco = (dias * 60) + (km * 0.15)
+print("O preço total a pagar é de R$ {:.2f}".format(preco))
