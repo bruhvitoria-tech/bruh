@@ -6,4 +6,4 @@
 # To install the emoji package, run:
 # pip install emoji
 import emoji
-print(emoji.emojize('Olá, mundo! :',use_aliases=True))
+print(emoji.emojize('Olá, mundo! :sunglassses',use_aliases=True))
