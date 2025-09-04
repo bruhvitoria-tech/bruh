@@ -1,4 +1,2 @@
-num = int(input)("Digite um número de 0 a 9999.")
-print("O numero é {}.".format(num))
-
-print("Sua unidade {}")
+cidade = str(input("Digite o nome da cidade em que voce nasceu: ")).strip()
+print(cidade[:5].upper() == 'Santo')
